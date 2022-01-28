@@ -4,7 +4,7 @@
  */
 exports.up = (knex) => knex.schema.createTable('boletos', (t) => {
   t.increments('id').primary();
-  t.string('linhaDigitavel').notNull().unique();
+  t.string('linha_digitavel').notNull();
 });
 
 /**
