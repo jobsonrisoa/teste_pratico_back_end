@@ -1,0 +1,35 @@
+{
+  "name": "teste_pratico_back_end",
+  "version": "1.0.0",
+  "description": "Queremos poder através da aplicação consultar linhas digitáveis de boleto de título bancário e pagamento de concessionárias, verificando se a mesma é válida ou não. Sendo válida e possuindo valor e/ou data de vencimento ter o retorno desses dados.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jobsonrisoa/teste_pratico_back_end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jobsonrisoa/teste_pratico_back_end/issues"
+  },
+  "homepage": "https://github.com/jobsonrisoa/teste_pratico_back_end#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "consign": "^0.1.6",
+    "express": "^4.17.2",
+    "knex": "^1.0.1",
+    "knex-logger": "^0.1.0",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.4.7",
+    "supertest": "^6.2.2"
+  }
+}
