@@ -1,5 +1,5 @@
 module.exports = (app) => {
   app.route('/boleto')
-    // .get(app.routes.users.findAll)
+    .get(app.routes.boletos.getAll)
     .post(app.routes.boletos.create);
 };
